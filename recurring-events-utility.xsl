@@ -89,7 +89,7 @@
                             <xsl:value-of select="$date-diff-days div 31"/>
                         </xsl:when>
                         <xsl:when test="substring($start-date,6,2)='08'">
-                            <xsl:value-of select="$date-diff-days div 30"/>
+                            <xsl:value-of select="$date-diff-days div 31"/>
                         </xsl:when>
                         <xsl:when test="substring($start-date,6,2)='09'">
                             <xsl:value-of select="$date-diff-days div 30"/>
